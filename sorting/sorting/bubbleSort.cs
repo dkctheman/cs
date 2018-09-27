@@ -19,11 +19,11 @@ namespace sorting
             {
                 for (int j = 0; j < length; j++)
                 {
-                    if (array[i] > array[i+1])
+                    if (array[j] > array[j+1])
                     {
-                        int temp = array[i];
-                        array[i] = array[i+1];
-                        array[i + 1] = temp;
+                        int temp = array[j];
+                        array[j] = array[j+1];
+                        array[j+1] = temp;
 
                     }
                 }
