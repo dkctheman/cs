@@ -1,0 +1,11 @@
+c:\code\cs\sorting\sorting\bin\Debug\netcoreapp2.0\sorting.deps.json
+c:\code\cs\sorting\sorting\bin\Debug\netcoreapp2.0\sorting.runtimeconfig.json
+c:\code\cs\sorting\sorting\bin\Debug\netcoreapp2.0\sorting.runtimeconfig.dev.json
+c:\code\cs\sorting\sorting\bin\Debug\netcoreapp2.0\sorting.dll
+c:\code\cs\sorting\sorting\bin\Debug\netcoreapp2.0\sorting.pdb
+c:\code\cs\sorting\sorting\obj\Debug\netcoreapp2.0\sorting.csprojResolveAssemblyReference.cache
+c:\code\cs\sorting\sorting\obj\Debug\netcoreapp2.0\sorting.csproj.CoreCompileInputs.cache
+c:\code\cs\sorting\sorting\obj\Debug\netcoreapp2.0\sorting.AssemblyInfoInputs.cache
+c:\code\cs\sorting\sorting\obj\Debug\netcoreapp2.0\sorting.AssemblyInfo.cs
+c:\code\cs\sorting\sorting\obj\Debug\netcoreapp2.0\sorting.dll
+c:\code\cs\sorting\sorting\obj\Debug\netcoreapp2.0\sorting.pdb
