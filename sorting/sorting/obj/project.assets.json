@@ -664,27 +664,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mscool\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Users\\v-dikc\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\code\\cs\\sorting\\sorting\\sorting.csproj",
+      "projectUniqueName": "C:\\code\\cs\\sorting\\sorting\\sorting.csproj",
       "projectName": "sorting",
-      "projectPath": "c:\\code\\cs\\sorting\\sorting\\sorting.csproj",
-      "packagesPath": "C:\\Users\\mscool\\.nuget\\packages\\",
-      "outputPath": "c:\\code\\cs\\sorting\\sorting\\obj\\",
+      "projectPath": "C:\\code\\cs\\sorting\\sorting\\sorting.csproj",
+      "packagesPath": "C:\\Users\\v-dikc\\.nuget\\packages\\",
+      "outputPath": "C:\\code\\cs\\sorting\\sorting\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\mscool\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\v-dikc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
