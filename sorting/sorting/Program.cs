@@ -16,7 +16,7 @@ namespace sorting
             Console.WriteLine("------after----------");
             //bubbleSort bs = new bubbleSort(array);
             //bs.sort();
-            quickSort q = new quickSort(array);
+            mergeSort q = new mergeSort(array);
             q.sort();
             p.print(array);            
 
