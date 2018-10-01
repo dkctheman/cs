@@ -7,17 +7,17 @@ namespace sorting
         static void Main(string[] args)
         {
             Program p = new Program();
-            int[] array = { 7, 8, 3, 10, 1, 2, 9, 4 };
-            //int length = 10000;
-            //int[] array = new int[length];
-            //p.randArray(array, 0, 1000000000);
+            //int[] array = { 7, 8, 3, 10, 1, 2, 9, 4 };
+            int length = 10;
+            int[] array = new int[length];
+            p.randArray(array, 0, 10000);
             Console.WriteLine("------before----------");
             p.print(array);
             Console.WriteLine("------after----------");
             //bubbleSort bs = new bubbleSort(array);
             //bs.sort();
             quickSort q = new quickSort(array);
-            q.merge(0, 3, 4, 7);
+            q.sort();
             p.print(array);            
 
             Console.WriteLine("Hello World!");

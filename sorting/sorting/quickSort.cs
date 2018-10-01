@@ -7,13 +7,17 @@ namespace sorting
     class quickSort
     {
         private int[] array;
+        private int startIndex;
+        private int endIndex;
 
         public quickSort(int[] array)
         {
             this.array = array;
+            this.startIndex = 0;
+            this.endIndex = array.Length - 1;
         }
 
-        public void merge(int s1, int e1, int s2, int e2)
+        public void _merge(int s1, int e1, int s2, int e2)
         {
 
             if (array[e1] < array[s2])
@@ -35,6 +39,31 @@ namespace sorting
             }
 
 
+        }
+
+        public void _sort(int s, int e)
+        {
+            
+
+            if(s >= e)
+            {
+                return;
+            }
+
+            int mid = (s + e) / 2;
+
+            _sort(s, mid);
+            _sort(mid + 1, e);
+            _merge(s, mid, mid + 1, e);
+
+
+
+
+        }
+
+        public void sort()
+        {
+            _sort(this.startIndex, this.endIndex);
         }
 
 
