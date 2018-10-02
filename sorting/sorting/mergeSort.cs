@@ -4,13 +4,13 @@ using System.Text;
 
 namespace sorting
 {
-    class quickSort
+    class mergeSort
     {
         private int[] array;
         private int startIndex;
         private int endIndex;
 
-        public quickSort(int[] array)
+        public mergeSort(int[] array)
         {
             this.array = array;
             this.startIndex = 0;
