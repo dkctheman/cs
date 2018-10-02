@@ -8,4 +8,4 @@ c:\code\cs\sorting\sorting\obj\Debug\netcoreapp2.0\sorting.AssemblyInfoInputs.ca
 c:\code\cs\sorting\sorting\obj\Debug\netcoreapp2.0\sorting.AssemblyInfo.cs
 c:\code\cs\sorting\sorting\obj\Debug\netcoreapp2.0\sorting.dll
 c:\code\cs\sorting\sorting\obj\Debug\netcoreapp2.0\sorting.pdb
-C:\code\cs\sorting\sorting\obj\Debug\netcoreapp2.0\sorting.csprojResolveAssemblyReference.cache
+C:\code\cs\sorting\sorting\obj\Debug\netcoreapp2.0\sorting.csprojAssemblyReference.cache

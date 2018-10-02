@@ -25,7 +25,7 @@ namespace sorting
             int i = s;
             int j = e;
             
-            while ((j-i) > 1)
+            while ((j-i) >= 1)
             {
 
                 while (array[j] >= p && i<j)
