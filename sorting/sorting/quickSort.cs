@@ -22,34 +22,33 @@ namespace sorting
 
             int p = array[s];
 
-            int i = s+1;
+            int i = s;
             int j = e;
-            int test = e;
-
-
-            while (i < test)
+            
+            while ((j-i) > 1)
             {
-                while (array[i] < p)
 
+                while (array[j] >= p && i<j)
+                {
+                    j--;
+                }
+                while (array[i] <= p && i<j)
                 {
                     i++;
                 }
 
-                while (array[j] > p)
-                {
-                    j--;
-                }
+               
 
                 int temp = array[i];
                 array[i] = array[j];
                 array[j] = temp;
-                Console.WriteLine("The pivot index{0},{1},{2},{3}", i, j, array[i], array[j]);
-                test--;
-            }
+                //Console.WriteLine("The pivot index{0},{1},{2},{3}", i, j, array[i], array[j]);
 
+            }
+         
             array[s] = array[i];
             array[i] = p;
-            Console.WriteLine("The pivot index{0},{1},{2},{3}", i,j,array[i],array[j]);
+            //Console.WriteLine("The pivot index{0},{1},{2},{3}", i,j,array[i],array[j]);
             return i;
             
    
@@ -57,12 +56,17 @@ namespace sorting
 
         public void _sort(int s, int e)
         {
-            if ((e-s) <= 1)
+            if ((e-s) < 1)
             {
                 return;
             }
 
             int p = _pivot(s, e);
+            print pr = new print();
+            //pr.show(this.array);
+            
+            //Console.WriteLine("pivote:{0}",p);
+
             _sort(s, p);
             _sort(p + 1, e);
 
