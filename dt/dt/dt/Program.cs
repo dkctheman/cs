@@ -26,6 +26,16 @@ namespace dt
             l.print();
             l.add(88);
             l.print();
+
+            if (l.find(40))
+            {
+                Console.WriteLine("true");
+            }
+
+            else
+            {
+                Console.WriteLine("false");
+            }
             
 
 

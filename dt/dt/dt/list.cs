@@ -55,6 +55,25 @@ namespace dt
 
         }
 
+        public bool find(int a)
+        {
+            list current = this;
+
+            while (current.next != null)
+            {
+                if (current.next.a == a)
+                {
+
+                    return true;
+                }
+
+                current = current.next;
+
+                
+            }
+            return false;
+        }
+
         public void print()
         {
             list current = this.next;

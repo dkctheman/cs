@@ -8,3 +8,4 @@ c:\code\cs\dt\dt\dt\bin\Debug\netcoreapp2.1\dt.dll
 c:\code\cs\dt\dt\dt\bin\Debug\netcoreapp2.1\dt.pdb
 c:\code\cs\dt\dt\dt\obj\Debug\netcoreapp2.1\dt.dll
 c:\code\cs\dt\dt\dt\obj\Debug\netcoreapp2.1\dt.pdb
+c:\code\cs\dt\dt\dt\obj\Debug\netcoreapp2.1\dt.csprojAssemblyReference.cache
