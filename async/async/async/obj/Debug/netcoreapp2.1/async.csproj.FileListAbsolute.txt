@@ -1,0 +1,11 @@
+c:\code\cs\async\async\async\obj\Debug\netcoreapp2.1\async.csprojAssemblyReference.cache
+c:\code\cs\async\async\async\obj\Debug\netcoreapp2.1\async.csproj.CoreCompileInputs.cache
+c:\code\cs\async\async\async\obj\Debug\netcoreapp2.1\async.AssemblyInfoInputs.cache
+c:\code\cs\async\async\async\obj\Debug\netcoreapp2.1\async.AssemblyInfo.cs
+c:\code\cs\async\async\async\bin\Debug\netcoreapp2.1\async.deps.json
+c:\code\cs\async\async\async\bin\Debug\netcoreapp2.1\async.runtimeconfig.json
+c:\code\cs\async\async\async\bin\Debug\netcoreapp2.1\async.runtimeconfig.dev.json
+c:\code\cs\async\async\async\bin\Debug\netcoreapp2.1\async.dll
+c:\code\cs\async\async\async\bin\Debug\netcoreapp2.1\async.pdb
+c:\code\cs\async\async\async\obj\Debug\netcoreapp2.1\async.dll
+c:\code\cs\async\async\async\obj\Debug\netcoreapp2.1\async.pdb
